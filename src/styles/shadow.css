@@ -1,0 +1,36 @@
+.shadowEffect {
+    -webkit-box-shadow: 0px 2px 17px -3px rgba(0, 0, 0, 0.48);
+    -moz-box-shadow: 0px 2px 17px -3px rgba(0, 0, 0, 0.48);
+    box-shadow: 0px 2px 17px -3px rgba(0, 0, 0, 0.48);
+}
+
+.color-blanco {
+    filter: brightness(0) invert(1);
+}
+
+.mediaQuery {
+    display: flex;
+    margin:3px;
+    padding:0;
+    transform: translateY(-10px);
+}
+
+@media (min-width: 600px) {
+    .mediaQuery {
+        display: none;
+    }
+}
+
+.footer{
+    border-radius: 0px 73px 0px 72px;
+    -moz-border-radius: 0px 73px 0px 72px;
+    -webkit-border-radius: 0px 73px 0px 72px;
+    border: 0px solid #000000;
+}
+
+.about{
+    border-radius: 0px 73px 0px 72px;
+    -moz-border-radius: 0px 73px 0px 72px;
+    -webkit-border-radius: 0px 73px 0px 72px;
+    border: 0px solid #c0bfce;
+}
