@@ -18,7 +18,7 @@ export const productosYServicios: productosYServiciosType[]=[
     {
         icon: <LocalAtm sx={{fontSize:"70px",fontWeight:"100"}}/>,
         title:"Ahorros",
-        navigate:"product",
+        navigate:"/services/product",
         description:"lorem lorem loremlorem loremlor emlor emlore mlorem",
         colorCard: colors.primary,
         fontColor:"white"
