@@ -24,7 +24,17 @@ const routes: Route[]=[
     {
         path:"services/product",
         element:<Product/>
-    }
+    },
+    {
+        path:"ubicacion",
+        element: <Inicio/>,
+   
+    },
+    {
+        path:"contacto",
+        element: <Inicio/>,
+   
+    },
 ];
 
 

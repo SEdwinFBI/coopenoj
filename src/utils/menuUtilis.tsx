@@ -1,6 +1,7 @@
 type menuItem = {
     label: string;
     navigate:string;
+
 }
 
 export const menuList: menuItem[] =[
@@ -14,10 +15,10 @@ export const menuList: menuItem[] =[
     },
     {
         label:"Ubicacion",
-        navigate:""
+        navigate:"ubicacion"
     },
     {
         label:"Contacto",
-        navigate:""
+        navigate:"contacto"
     }
 ]

@@ -43,9 +43,9 @@ const Carousel: React.FC<CarouselProps> = ({carouselImages}) => {
                 alt={image.title}
                 
               />
-              <Box className="carousel-caption d-block " style={{zIndex:2}}>
+              <Box className="carousel-caption d-block " style={{zIndex:95}}>
                 {image.button ? (
-                  <button className="btn btn-primary">{image.button}</button>
+                  <button className="btn btn-primary" style={{zIndex:95,position:"relative"}} >{image.button}</button>
                 ) : (
                   null
                 )}
